@@ -32,6 +32,22 @@ public class Bicicleta {
         }
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public double getTamanhoRoda() {
+        return tamanhoRoda;
+    }
+
+    public boolean isEmMovimento() {
+        return emMovimento;
+    }
+
     @Override
     public String toString() {
         return "Bicicleta{" +

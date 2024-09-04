@@ -20,6 +20,18 @@ public class Veiculo {
         System.out.println("O veículo " + placa + " está lavando.");
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
     @Override
     public String toString() {
         return "Veiculo{" +

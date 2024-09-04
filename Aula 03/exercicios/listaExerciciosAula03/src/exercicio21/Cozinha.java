@@ -32,6 +32,22 @@ public class Cozinha {
         }
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public int getQuantidadePessoas() {
+        return quantidadePessoas;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public boolean isLimpa() {
+        return limpa;
+    }
+
     @Override
     public String toString() {
         return "Cozinha{" +

@@ -4,10 +4,12 @@ public class TesteComputador {
     public static void main(String[] args) {
         Computador computador = new Computador("Intel i7", 16, 512);
 
-        System.out.println(computador);
         computador.ligar();
-        System.out.println(computador);
         computador.desligar();
-        System.out.println(computador);
+
+        System.out.println(computador.getArmazenamento());
+        System.out.println(computador.getProcessador());
+        System.out.println(computador.getMemoriaRAM());
+
      }
 }

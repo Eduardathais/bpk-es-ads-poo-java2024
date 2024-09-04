@@ -32,6 +32,18 @@ public class Computador {
         }
     }
 
+    public int getArmazenamento() {
+        return armazenamento;
+    }
+
+    public int getMemoriaRAM() {
+        return memoriaRAM;
+    }
+
+    public String getProcessador() {
+        return processador;
+    }
+
     @Override
     public String toString() {
         return "Computador{" +

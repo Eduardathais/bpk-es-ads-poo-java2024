@@ -32,6 +32,18 @@ public class Cidade {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public int getPopulacao() {
+        return populacao;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
     @Override
     public String toString() {
         return "Cidade{" +

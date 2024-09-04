@@ -32,6 +32,22 @@ public class Filme {
         }
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getDiretor() {
+        return diretor;
+    }
+
+    public int getDuracao() {
+        return duracao;
+    }
+
+    public boolean isEmExibicao() {
+        return emExibicao;
+    }
+
     @Override
     public String toString() {
         return "Filme{" +

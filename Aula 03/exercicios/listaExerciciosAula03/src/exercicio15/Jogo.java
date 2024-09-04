@@ -32,6 +32,22 @@ public class Jogo {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public boolean isEmExecucao() {
+        return emExecucao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
     @Override
     public String toString() {
         return "Jogo{" +

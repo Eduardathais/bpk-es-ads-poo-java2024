@@ -12,8 +12,16 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    public void printPessoa(){
-        System.out.println(this);
+    public String getNome() {
+        return nome;
+    }
+
+    public Double getAltura() {
+        return altura;
+    }
+
+    public Integer getIdade() {
+        return idade;
     }
 
     @Override

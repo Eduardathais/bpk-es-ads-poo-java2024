@@ -10,12 +10,10 @@ public class TesteTime {
         internacional.adicionarJogador("Thiago Galhardo");
         internacional.adicionarJogador("Patrick");
 
-        System.out.println(internacional);
-
         internacional.removerJogador("Thiago Galhardo");
 
         internacional.removerJogador("Rodrigo Dourado");
 
-        System.out.println(internacional);
+        System.out.println(internacional.getTecnico());
     }
 }

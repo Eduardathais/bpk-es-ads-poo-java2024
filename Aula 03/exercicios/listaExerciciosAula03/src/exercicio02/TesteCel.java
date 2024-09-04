@@ -7,8 +7,9 @@ public class TesteCel {
 
         celular1.ligarCelular();
         celular2.desligarCelular();
-        System.out.println(celular1);
-        System.out.println(celular2);
+        System.out.println(celular1.getMarca());
+        System.out.println(celular2.getModelo());
+        System.out.println(celular2.getCapacidadeBateria());
 
     }
 }

@@ -5,6 +5,8 @@ public class TesteAluno {
         double[] notas = {9.5, 9.6, 9.0, 9.4};
         Aluno aluno = new Aluno("Eduarda", "2024999", "ADS", notas);
 
-        System.out.println(aluno);
+        System.out.println(aluno.getNome());
+        System.out.println(aluno.getMatricula());
+        System.out.println(aluno.getCurso());
     }
 }

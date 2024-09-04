@@ -26,6 +26,18 @@ public class Empresa {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCNPJ() {
+        return CNPJ;
+    }
+
+    public int getNumeroFuncionarios() {
+        return numeroFuncionarios;
+    }
+
     @Override
     public String toString() {
         return "Empresa{" +

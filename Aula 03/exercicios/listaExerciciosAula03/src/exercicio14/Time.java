@@ -35,6 +35,14 @@ public class Time {
         return jogadores.size();
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getTecnico() {
+        return tecnico;
+    }
+
     @Override
     public String toString() {
         return "Time{" +

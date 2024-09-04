@@ -20,6 +20,18 @@ public class Cachorro {
         System.out.println(nome + " está correndo");
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
     @Override
     public String toString() {
         return "Cachorro{" +

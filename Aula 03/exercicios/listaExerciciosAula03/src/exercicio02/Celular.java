@@ -2,9 +2,9 @@ package exercicio02;
 
 public class Celular {
 
-    public String marca;
-    public String modelo;
-    public Double capacidadeBateria;
+    private String marca;
+    private String modelo;
+    private Double capacidadeBateria;
 
     private Boolean ligado = false;
 
@@ -20,6 +20,18 @@ public class Celular {
 
     public void desligarCelular() {
         this.ligado = false;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public Double getCapacidadeBateria() {
+        return capacidadeBateria;
+    }
+
+    public String getModelo() {
+        return modelo;
     }
 
     @Override

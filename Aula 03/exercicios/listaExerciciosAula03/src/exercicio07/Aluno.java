@@ -27,6 +27,22 @@ public class Aluno {
         return soma / notas.length;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public double[] getNotas() {
+        return notas;
+    }
+
     @Override
     public String toString() {
         return "Aluno{" +

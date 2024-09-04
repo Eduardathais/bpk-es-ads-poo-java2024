@@ -20,6 +20,18 @@ public class Professor {
         System.out.println(nome + " está corrigindo provas de " + disciplina + ".");
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
     @Override
     public String toString() {
         return "Professor{" +

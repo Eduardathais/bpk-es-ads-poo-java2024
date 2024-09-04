@@ -32,6 +32,18 @@ public class Produto {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public int getQuantidadeEstoque() {
+        return quantidadeEstoque;
+    }
+
     @Override
     public String toString() {
         return "Produto{" +

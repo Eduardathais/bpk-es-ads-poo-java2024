@@ -4,9 +4,9 @@ public class TesteLoja {
     public static void main(String[] args) {
         Loja loja = new Loja("Lojas pônei", "Rua dos pôneis, 123", "(41) 1234-0000");
 
-        System.out.println(loja);
         loja.abrir();
         loja.fechar();
-        System.out.println(loja);
+        System.out.println(loja.getNome());
+
     }
 }

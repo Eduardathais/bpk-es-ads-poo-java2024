@@ -34,6 +34,26 @@ public class Animal {
         }
     }
 
+    public String getEspecie() {
+        return especie;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public boolean isAlimentado() {
+        return alimentado;
+    }
+
+    public boolean isDormindo() {
+        return dormindo;
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
